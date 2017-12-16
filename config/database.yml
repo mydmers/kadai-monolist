@@ -53,4 +53,4 @@ adapter: postgresql
   pool: 5
   database: monolist_production
   username: monolist
-  password: <%= ENV[‘MONOLIST_DATABASE_PASSWORD'] %>
+  password: <%= ENV['MONOLIST_DATABASE_PASSWORD'] %>
